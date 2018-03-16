@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send(req.body);
+  console.log(req.body);
 });
 
 app.listen(process.env.PORT || 3000, () => console.log('Listening.'));
