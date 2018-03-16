@@ -16,7 +16,7 @@ const validateEmail = (email) => {
 };
 
 const validateLinkedIn = (url) => {
-  return validator.isUrl(url) ? undefined : ['Invalid URL'];
+  return validator.isURL(url) ? undefined : ['Invalid URL'];
 };
 const validateBudget = (budget) => {
   let issues = [];
