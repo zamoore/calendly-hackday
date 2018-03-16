@@ -1,0 +1,14 @@
+{
+  "name": "hackday",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zack Moore <zack.moore@izea.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  }
+}
