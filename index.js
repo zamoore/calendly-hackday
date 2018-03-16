@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post('/', (req, res) => {
+  console.log('Hello there');
   req.body.payload.questions_and_answers.forEach((qa) => {
     console.log(qa);
   });
